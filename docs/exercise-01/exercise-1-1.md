@@ -31,6 +31,12 @@ A coluna `Sender Node` foi adicionada ao layout da Trace.
 
 Com a medição iniciada, a `T_CAN_All` passou a exibir tráfego CAN/CAN FD e nós transmissores como `ENGINE`, `BMS`, `BPC_00`, `BPC_01` e outros componentes da simulação.
 
+### Evidência da execução
+
+A captura abaixo registra o CANoe com `Simulation Setup`, `Measurement Setup` e a `T_CAN_All` recebendo tráfego durante a medição.
+
+![Exercise 1.1 - CANoe measurement running](assets/exercise-1-1-result.jpg)
+
 ## Próximo passo
 
 Ativar o cenário `Testing (reduced BPC Application)` e usar a `T_CAN_All` para identificar o frame/PDU transmitido por `BPC_00` e seu cycle time.
